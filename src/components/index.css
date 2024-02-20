@@ -1,0 +1,97 @@
+.header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  padding-bottom: 10px;
+}
+
+.item {
+  margin-top: 100px;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+}
+
+.filterMenu {
+  display: flex;
+  align-items: center;
+}
+
+.rating {
+  margin-left: 60px;
+}
+
+.prices {
+  display: flex;
+  margin-left: 40px;
+  gap: 50px;
+}
+
+.prices input {
+  width: 300px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+}
+
+.prices input:hover {
+  border: 2px solid blue;
+}
+
+.priceMax {
+  margin-right: 150px;
+}
+
+#brand {
+  width: 200px;
+  margin-right: 40px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+#brand:hover {
+  border: 2px solid blue;
+}
+
+.searchBtn {
+  transition: all 0.7s ease;
+  border: none;
+  background: blue;
+  padding: 6px 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.searchBtn:hover {
+  background: #fff;
+  color: blue;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.item {
+  width: 270px;
+  height: 100%;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+.item h1 {
+  color: rgb(13, 17, 23);
+  text-align: center;
+}
